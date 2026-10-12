@@ -3,17 +3,14 @@ let selectedClass = "";
 const bussClass = {
   ekonomi: {
     price: 10000,
-    price_in_rupiah: "Rp 10.000",
     image: "./assets/images/ekonomi.png",
   },
   eksekutif: {
     price: 20000,
-    price_in_rupiah: "Rp 20.000",
     image: "./assets/images/eksekutif.png",
   },
   bisnis: {
     price: 30000,
-    price_in_rupiah: "Rp 30.000",
     image: "./assets/images/bisnis.png",
   },
 };
@@ -25,7 +22,8 @@ document.getElementById("class").addEventListener("change", function (event) {
   imgClass.style.display = "block";
   imgClass.src = bussClass[selectedClass].image;
 
-  ticketPrice.innerHTML = bussClass[selectedClass].price_in_rupiah;
+  ticketPrice.innerHTML =
+    "Rp " + bussClass[selectedClass].price.toLocaleString("id");
 });
 
 document
