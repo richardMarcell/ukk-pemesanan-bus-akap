@@ -1,0 +1,20 @@
+[
+  {
+    "code": "P001",
+    "name": "Bus Kelas Ekonomi",
+    "price": 10000,
+    "image": "/assets/images/ekonomi.png"
+  },
+  {
+    "code": "P002",
+    "name": "Bus Kelas Eksekutif",
+    "price": 20000,
+    "image": "/assets/images/eksekutif.png"
+  },
+  {
+    "code": "P003",
+    "name": "Bus Kelas Bisnis",
+    "price": 10000,
+    "image": "/assets/images/bisnis.png"
+  }
+]
